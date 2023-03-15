@@ -6,4 +6,8 @@ const reduceData =  data.reduce((prev, next) => ({
     [next.name]: next
 }), {})
 
+
+<! -- BY REDUCE GET SOME OF ARRAY -->
+const arrReduce = [1,2,3,4,5].reduce((prev, next) => (prev + next), 0);
+
 ```
